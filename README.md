@@ -25,7 +25,6 @@ sudo docker volume create volume03
 - 생성된 볼륨 directory 확인
 ```
 sudo ls /var/lib/docker/volumes/
-
 ```
 
 > <img width="500" alt="1" src="https://github.com/hanmin0512/docker_Load_balacner/assets/37041208/1abc43ba-31b9-400a-94cc-4b8061df2067">
