@@ -115,7 +115,41 @@ sudo vim /var/lib/docker/volumes/volume03/_data/index.html
 > ![3](https://github.com/hanmin0512/docker_Load_balacner/assets/37041208/e5a410c2-718a-4be2-86f4-231dd75eb305)
 > ![4](https://github.com/hanmin0512/docker_Load_balacner/assets/37041208/ae0d1e56-2b03-4ca7-a9ba-bc41a8e0ebee)
 
+## 삭제 작업.
+- docker 컨테이너 stop
+
+```
+sudo docker stop $(sudo docker ps -q -f status=running)
+```
+
+> <img width="513" alt="5" src="https://github.com/hanmin0512/docker_Load_balacner/assets/37041208/3e60f9d4-32f4-4c42-a6f3-7497ecf3d73a">
 
 
+- docker 컨테이너 삭제
 
+```
+sudo docker rm $(sudo docker ps -q -f status=exited) 
+```
+
+> <img width="480" alt="6" src="https://github.com/hanmin0512/docker_Load_balacner/assets/37041208/59d27673-19eb-400d-9af7-0a7ccd230609">
+
+
+- docker 이미지 삭제
+
+```
+sudo docker images
+sudo docker rmi nginx:1.18
+sudo docker images
+```
+
+> <img width="754" alt="7" src="https://github.com/hanmin0512/docker_Load_balacner/assets/37041208/ec2f4966-0f8e-4396-81f8-517773cac3b1">
+
+- 나머지 삭제
+
+```
+sudo docker system prune -a
+y
+```
+
+> <img width="554" alt="8" src="https://github.com/hanmin0512/docker_Load_balacner/assets/37041208/1cb9803c-a341-48b0-9c2a-8f81c2e49d54">
 
