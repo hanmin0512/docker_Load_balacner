@@ -110,6 +110,12 @@ sudo vim /var/lib/docker/volumes/volume03/_data/index.html
 <h1> Load Balance page03</h1>
 ```
 
+## 브라우저로 접속 시도.
+> ![2](https://github.com/hanmin0512/docker_Load_balacner/assets/37041208/c45f3070-a865-4822-b3de-a7d53660d746)
+> ![3](https://github.com/hanmin0512/docker_Load_balacner/assets/37041208/e5a410c2-718a-4be2-86f4-231dd75eb305)
+> ![4](https://github.com/hanmin0512/docker_Load_balacner/assets/37041208/ae0d1e56-2b03-4ca7-a9ba-bc41a8e0ebee)
+
+
 
 
 
