@@ -24,11 +24,12 @@ sudo docker volume create volume03
 
 - 생성된 볼륨 directory 확인
 ```
-cd /var/lib/docker/volumes/
-ls
+sudo ls /var/lib/docker/volumes/
+
 ```
 
->
+> <img width="500" alt="1" src="https://github.com/hanmin0512/docker_Load_balacner/assets/37041208/1abc43ba-31b9-400a-94cc-4b8061df2067">
+
 
 ## 웹서버와 네트워크, 볼륨을 각각 연결
 - -itd 옵션은 사용자가 컨테이너 내부에서 터미널 세션을 통해 명령어를 입력하고 결과를 볼 수 있게 해주며, 컨테이너 실행을 백그라운드로 실행 시킨다.
